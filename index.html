@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Karina</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="burger"> <img src="img/burger.svg" alt="burger"></div>
+            <div class="logo"> <img src="img/logo 1.svg" alt="logo"></div>
+            <div class="counter"><img src="img/counter.svg" alt="counter"></div>
+        </div>
+        <div class="main-screen">
+            <h1>shimmer robeauty</h1>
+            <button type="button" class="btn btn-order btn-light rounded-pill">
+                <h2>замовити зараз</h2>
+            </button>
+        </div>
+    </div>
+    <div class="running-string">
+        <marquee behavior="scroll" bgcolor="white" width="100%" direction="left">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+            <span class="runnig-text-span">перетворіть шкіру на прикрасу</span><img src="img/Star.svg" alt="Star">
+        </marquee>
+    </div>
+    <div class="container-2">
+        <div class="img-back"><img src="img/choose.png" alt="choose"></div>
+        <div class="ul-container">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">пом’якшує шкіру та глибоко зволожує</li>
+                <li class="list-group-item">маскує дрібні недоліки</li>
+                <li class="list-group-item">легка обволікаюча текстура</li>
+                <li class="list-group-item">тонкі привабливі аромати та “смачні” відтінки</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-3">
+        <div class="carousel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="name_and_cost">
+            <div class="name">
+                <p class="title">шиммер</p>
+                <p>з вітаміном Е</p>
+            </div>
+            <div class="cost">290 ₴</div>
+        </div>
+        <div class="drop_down">
+            <div class="collor">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        колiр
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">колiр 1</a></li>
+                        <li><a class="dropdown-item" href="#">колiр 2</a></li>
+                        <li><a class="dropdown-item" href="#">колiр 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="arom">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        аромат
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="#">аромат 1</a></li>
+                        <li><a class="dropdown-item" href="#">аромат 2</a></li>
+                        <li><a class="dropdown-item" href="#">аромат 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="final-order">
+            <button type="button" class="btn btn-order-2 btn-success rounded-pill"><h2>замовити зараз</h2></button>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
