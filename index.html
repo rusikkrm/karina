@@ -17,15 +17,51 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="burger"> <img src="img/burger.svg" alt="burger"></div>
+            <div class="burger">
+
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop"><img src="img/burger.svg" alt="burger"></button>
+
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                    aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasTopLabel">Меню</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p class="menu-text">Для замовлення звертайтеся в телеграм @GluhovskayaKarina</p>
+                    </div>
+                </div>
+            </div>
             <div class="logo"> <img src="img/logo 1.svg" alt="logo"></div>
             <div class="counter"><img src="img/counter.svg" alt="counter"></div>
         </div>
         <div class="main-screen">
             <h1>shimmer robeauty</h1>
-            <button type="button" class="btn btn-order btn-light rounded-pill">
+            <button type="button" class="btn btn-order btn-light rounded-pill" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
                 <h2>замовити зараз</h2>
             </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Замовлення</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="menu-text">Для замовленя звертайтеся в телеграм @GluhovskayaKarina</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
     <div class="running-string">
@@ -111,7 +147,28 @@
             </div>
         </div>
         <div class="final-order">
-            <button type="button" class="btn btn-order-2 btn-success rounded-pill"><h2>замовити зараз</h2></button>
+            <button type="button" class="btn btn-order-2 btn-success rounded-pill" data-bs-toggle="modal"
+                data-bs-target="#exampleModal2">
+                <h2>замовити зараз</h2>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Замовлення</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="menu-text">Для замовлення звертайтеся в телеграм @GluhovskayaKarina</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
